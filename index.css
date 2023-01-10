@@ -1,0 +1,172 @@
+*{
+    font-family: roboto slab , serif;
+    background-color: #2b6777;
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style-type: none; /*to not show bullets of unordered list*/
+    overflow: hidden;
+    background-color: #f3f3f3;
+    
+}
+   
+li a{
+    float:none;
+}
+
+li a {
+    display: block;
+    color: #52ab98 ;
+    background-color:#c8d8e4 ;
+    text-align: center;
+    padding: 14px 16px; /*top bottom , right left */
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+  
+li a:hover:not(.active) {
+    background-color: #2b6777 ;
+    color: #52ab98;
+  }
+
+#title{
+    font-size: 36px;
+    font-weight: normal;
+    color: #c8d8e4;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+ 
+#pic{
+    width: 60%;
+    height: auto;
+    border-radius: 25px;
+    border: 1px white;
+    display: table;
+    margin: 0 auto;
+}
+
+.column {
+    float: left;
+    width:100%;
+    font-size: 23px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media (min-width: 767px) {
+    .column {
+      width: 50%;
+    }
+  }
+
+a {
+    text-decoration: none;
+}
+.fast{
+    text-decoration: none;
+    color:#52ab98 ;
+}
+
+.row{
+  padding: 30px;
+}
+
+  
+  #github{
+    height: 50px;
+    width: 50px;
+  }
+  
+
+  #linkedin{
+    height: 50px;
+    width: 50px;
+  }
+
+  p{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    color: black;
+  }
+
+  h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #c8d8e4;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #52ab98;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  ol {
+    display: table;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 32px;
+    color: #c8d8e4 ;
+   
+  }
+  #p1{
+    margin-left: 10px;
+    padding: 20px;
+    text-align: justify;
+  }
+
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  footer{
+    color: #c8d8e4;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+  }
